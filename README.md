@@ -13,7 +13,7 @@ Your **custom-made toolbox** for building, simulating, and analyzing complex bio
 ## ⚠️ IMPORTANT
 
 _All scripts and tools here are strictly for **educational & academic use only**._  
-Please respect the science and keep it ethical! 🙏
+Please respect the science and keep it ethical! ⚖️
 
 ---
 
@@ -35,14 +35,14 @@ Please respect the science and keep it ethical! 🙏
      ⚙️ ATPases 
 
 3. ⚖️ **Custom Equilibration Protocols**  
-     - Tailored equilibration routines for your biomembrane-protein systems, ensuring stability and realism before production runs.  
+   Tailored equilibration routines for your biomembrane-protein systems, ensuring stability and realism before production runs.  
 
 4. 📊 **Cutting-edge scripts for lipid analysis.**
-     - Analysis Scripts to dig deep into membrane dynamics, protein-lipid interactions and more.  
+   Analysis Scripts to dig deep into membrane dynamics, protein-lipid interactions and more.  
 
 5. 🌪️ **Applying Forces on Biomembranes**  
-   - Implement enhanced sampling techniques to calculate Free Energy profiles:
-     🏋️ Accelerated Molecular Dynamics (aMD) 
+   Implement enhanced sampling techniques to calculate Free Energy profiles:
+     🏋️ Accelerated Molecular Dynamics (aMD)  
      🏋️ Steered Molecular Dynamics (SteeredMD)  
      ☂️ Umbrella Sampling  
 
