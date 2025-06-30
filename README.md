@@ -42,7 +42,7 @@ Please respect the science and keep it ethical! ⚖️
 
 5. 🌪️ **Applying Forces on Biomembranes**  
    Implement enhanced sampling techniques to calculate Free Energy profiles:  
-     🏋️ Accelerated Molecular Dynamics (aMD)  
+     🔥 Accelerated Molecular Dynamics (aMD)  
      🏋️ Steered Molecular Dynamics (SteeredMD)  
      ☂️ Umbrella Sampling  
 
