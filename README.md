@@ -51,8 +51,8 @@ Please respect the science and keep it ethical! ⚖️
 
 ---
 
-🎞️ Example Use Case
-No installation required: in most cases, the scripts are executed directly in the Linux terminal. Get ready to see things you never imagined possible!
+🎞️ Example Use Case. 
+No installation required: in most cases, the scripts are executed directly in the Linux terminal. Get ready to see things you never imagined possible!  
 
 ![embranefoundry_logo1](https://raw.githubusercontent.com/TheVisualHub/VisualFactory/7bfe4729fdd58478f761eafdd90cb5563ce72869/assets/embranefoundry_logo1.png)
 
