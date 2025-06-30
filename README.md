@@ -1,4 +1,4 @@
-# 🧬 Multiscale Molecular Modeling of Biomembranes and Membrane Proteins ⚙️
+# ⚙️ Multiscale Molecular Modeling of Biomembranes Systems
 
 🎥 Click on the image to watch the video in 4K: 
 [![Watch the video](https://img.youtube.com/vi/qgFmRrF_M9k/maxresdefault.jpg)](https://www.youtube.com/watch?v=qgFmRrF_M9k)
