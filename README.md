@@ -18,7 +18,7 @@ Please respect the science and keep it ethical!
 
 ---
 
-## 🚀 What will have been included in the final version?
+## 🚀 What will be included ?
 
 ⏳ This repository is constantly evolving — fresh updates and exciting additions dropping regularly.
 
