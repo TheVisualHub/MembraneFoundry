@@ -3,9 +3,9 @@
 🎥 Click on the image to watch the video in 4K: 
 [![Watch the video](https://img.youtube.com/vi/qgFmRrF_M9k/maxresdefault.jpg)](https://www.youtube.com/watch?v=qgFmRrF_M9k)
 
-Welcome to the **Membrane Foundry**!
+👑 Welcome to the **Membrane Foundry**! 🛠️
 
-Your 🛠️ **custom-made toolbox** for building, simulating, and analyzing complex biomembrane systems.
+Your **custom-made toolbox** for building, simulating, and analyzing complex biomembrane systems.
 
 
 ---
