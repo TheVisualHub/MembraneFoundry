@@ -21,7 +21,7 @@ Please respect the science and keep it ethical!
 
 1. **Building Complex Biomembrane Bilayers**  
    Construct realistic membrane models with **experimentally derived lipid compositions** for diverse biological systems, such as:  
-     🦠 **Mitochondrial membranes**  
+     🔋 **Mitochondrial membranes**  
      🧫 **Plasma membranes**  
      🧠 **Neuronal membranes**  
      🧱 …other tissue-specific membranes
