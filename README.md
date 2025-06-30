@@ -1,11 +1,11 @@
-# ⚙️⚡ Multiscale Modeling of Biomembrane Systems
+# 🔷 Multiscale Modeling of Biomembrane Systems 🔷 
 
 🎥 Click on the image to watch the video in 4K: 
 [![Watch the video](https://img.youtube.com/vi/qgFmRrF_M9k/maxresdefault.jpg)](https://www.youtube.com/watch?v=qgFmRrF_M9k)
 
-👑 Welcome to the **Membrane Foundry**! 🛠️
+👑 Welcome to the **Membrane Foundry**!
 
-Your **custom-made toolbox** for building, simulating, and analyzing complex biomembrane systems.
+Your **custom-made toolbox** 🛠️ for building, simulating, and analyzing complex biomembrane systems.
 
 
 ---
@@ -34,7 +34,7 @@ Please respect the science and keep it ethical!
      💀 Apoptotic Proteins  
      ⚙️ ATPases 
 
-3. ⚖️ **Custom Equilibration Protocols**  
+3. 🔆 **Custom Equilibration Protocols**  
    Tailored equilibration routines for your biomembrane-protein systems, ensuring stability and realism before production runs.  
 
 4. 📊 **Cutting-edge scripts for lipid analysis.**  
@@ -51,7 +51,7 @@ Please respect the science and keep it ethical!
 
 ---
 
-🎞️ **Example Use Case.**   
+💠 **Example Use Case.**   
 No installation required: in most cases, the scripts are executed directly in the Linux terminal.  
 And prepare yourself for things beyond your imagination!
 
