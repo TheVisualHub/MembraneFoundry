@@ -18,7 +18,9 @@ Please respect the science and keep it ethical!
 
 ---
 
-## 🚀 What’s included?
+## 🚀 What will be included?
+
+⏳ This repository is constantly evolving — fresh updates and exciting additions dropping regularly.
 
 1. **Building Complex Biomembrane Bilayers**  
    Construct realistic membrane models with **experimentally derived lipid compositions** for diverse biological systems, such as:  
@@ -31,8 +33,8 @@ Please respect the science and keep it ethical!
    Create and embed complex membrane proteins such as:  
      🌀 GPCRs (G Protein-Coupled Receptors)  
      ⚡ Ion Channels  
-     🚚 Molecular Transporters  
-     💀 Apoptotic Proteins  
+     ⚛️ Molecular Transporters  
+     ☯️ Apoptotic Proteins  
      ⚙️ ATPases 
 
 3. **Custom Equilibration Protocols**  
