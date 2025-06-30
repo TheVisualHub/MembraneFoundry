@@ -47,7 +47,7 @@ Please respect the science and keep it ethical!
      ☂️ Umbrella Sampling  
 
 6. 🔬 **Ready-to-use Examples**  
-   📂 Pre-equilibrated systems modelled in complex multi-lipid membranes
+   ⚗️ Pre-equilibrated systems modelled in complex multi-lipid membranes
 
 ---
 
