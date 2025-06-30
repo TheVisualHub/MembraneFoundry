@@ -55,5 +55,5 @@ Please respect the science and keep it ethical!
 No installation required: in most cases, the scripts are executed directly in the Linux terminal.  
 And prepare yourself for things beyond your imagination!
 
-![embranefoundry_logo1](https://raw.githubusercontent.com/TheVisualHub/VisualFactory/7bfe4729fdd58478f761eafdd90cb5563ce72869/assets/embranefoundry_logo1.png)
+![embranefoundry_logo1](https://github.com/TheVisualHub/VisualFactory/blob/515274370914e1648776946c67e5a60b42da65e4/assets/embranefoundry_logo2.jpg)
 
