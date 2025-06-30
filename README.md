@@ -35,10 +35,10 @@ Please respect the science and keep it ethical!
      ⚙️ ATPases 
 
 3. **Custom Equilibration Protocols**  
-   Tailored equilibration routines for your biomembrane-protein systems, ensuring stability and realism before production runs.  
+   🔧 Tailored equilibration routines for your biomembrane-protein systems, ensuring stability and realism before ▶️ production runs.  
 
 4. **Cutting-edge scripts for lipid analysis.**  
-   Python and Bash Scripts to dig deep into membrane dynamics, protein-lipid interactions and more.  
+   📊 Python and Bash Scripts to dig deep into membrane dynamics, protein-lipid interactions and more.  
 
 5. **Applying Forces on Biomembranes**  
    Implement enhanced sampling techniques 🌪️  to calculate Free Energy profiles:  
