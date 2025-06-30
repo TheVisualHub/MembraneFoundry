@@ -10,10 +10,10 @@ Your **custom-made toolbox** for building, simulating, and analyzing complex bio
 
 ---
 
-## ⚠️ IMPORTANT
+## ⚖️ ETHICAL USE POLICY
 
 _All scripts and tools here are strictly for **educational & academic use only**._  
-Please respect the science and keep it ethical! ⚖️
+Please respect the science and keep it ethical!
 
 ---
 
