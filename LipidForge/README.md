@@ -1,31 +1,17 @@
 # 🧬 Welcome to the **Lipid Forge**
 
-## 🎞️ Click to Watch this illustration of a multi-lipid system with the visual receptor rhodopsin  
+## 🎞️ Click to watch this illustration of a multi-lipid system with the visual receptor rhodopsin  
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
 ## 🔨 Forge Your Own Membranes  
-Step into the workshop: design, shape, and refine realistic lipid assemblies tailored to your research needs.
+Step into the lipid workshop: design and refine realistic multi-lipid systems tailored to your brilliant research. 💎
 
-Whether you’re modeling asymmetric bilayers, mixing exotic lipids, or preparing systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.
+Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
-##🚀 Coming soon:
+## 🚀 Coming soon:
 A streamlined, robust, and fully scriptable tool for constructing complex lipid bilayers with precise control over composition, force fields, and spatial arrangement — perfect for large-scale molecular modeling projects.
 
-##🌱 Why?
-
-Modern membrane simulations demand more than single-lipid bilayers.
-Our tool bridges flexibility and reproducibility, empowering users to:
-
-    Mix multiple lipid types in custom ratios
-
-    Seamlessly integrate with AmberTools force fields & protocols
-
-    Automate parameterization & minimization steps
-
-    Reproduce realistic asymmetric or symmetric membranes effortlessly
-  
-
-## ⚙️ Example Crafting Recipe
+## ⚙️ Example Crafting Recipe of a Four-lipid Biomembrane
 
 ```bash
 packmol-memgen \
@@ -44,11 +30,13 @@ packmol-memgen \
   --minimize                            # Perform an initial energy minimization of the system
 ```
 
-⏳ Status
+## ⏳ Status
 
   ✨ Currently under active development
-  📚 Alpha release, tutorials & notebooks coming soon!
+  📚 Betta release, tutorials coming soon!
+  
+##📦 Built On
 
-🤝 Welcome to the Family
+    ✨    AmberTools
+    ✨ Packmol-Memgen
 
-  I welcome feedback, testing, and new ideas!
