@@ -1,4 +1,4 @@
-# 🧬 Welcome to the **Lipid Forge**
+# Welcome to the **Lipid Forge** 🔥
 
 ## 🎞️ Click to watch this illustration of a multi-lipid system with the visual receptor rhodopsin  
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
@@ -9,9 +9,9 @@ Step into the lipid workshop: design and refine realistic multi-lipid systems ta
 Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
 ## 🚀 Coming soon:
-A streamlined, robust, and fully scriptable tool for constructing complex lipid bilayers with precise control over composition, force fields, and spatial arrangement — perfect for large-scale molecular modeling projects.
+A streamlined, robust, and fully scriptable tool for constructing complex lipid bilayers with precise control over composition, force fields, and spatial arrangement — perfect for large-scale molecular modeling projects.  
 
-## ⚙️ Example Crafting Recipe of a Four-lipid Biomembrane
+## ⚙️ Example Crafting Recipe of a Four-lipid Biomembrane  
 
 ```bash
 packmol-memgen \
@@ -30,13 +30,12 @@ packmol-memgen \
   --minimize                            # Perform an initial energy minimization of the system
 ```
 
-## ⏳ Status
-
+## ⏳ Status. 
   ✨ Currently under active development
   📚 Betta release, tutorials coming soon!
   
-##📦 Built On
-
+## 📦 Built On  
     ✨    AmberTools
     ✨ Packmol-Memgen
-
+    
+![Lipid Forge Logo](https://github.com/TheVisualHub/VisualFactory/blob/aa62d075e6a471ca173dad8fea53666b5e629b88/assets/lipidforge_logo2.jpeg?raw=true)
