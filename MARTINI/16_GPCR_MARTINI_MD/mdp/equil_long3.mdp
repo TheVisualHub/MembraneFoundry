@@ -1,0 +1,45 @@
+title		= NPT equilibration for martini
+define		= -DPOSRES -DRUBBER_BANDS
+integrator               = md
+tinit                    = 0.0
+dt                       = 0.02
+nsteps                   = 50000000
+nstcomm                  = 1
+comm-grps		 = system
+
+nstlog                   = 50000
+nstenergy                = 250000
+nstxtcout                = 50000
+xtc_precision            = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+coulombtype              = reaction-field 
+rcoulomb                 = 1.1
+epsilon_r                = 15	; 2.5 (with polarizable water)
+epsilon_rf               = 0
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+
+tcoupl                   = v-rescale
+tc-grps                  = PROTMEMB SOLV
+tau_t                    = 1.0 1.0
+ref_t                    = 323 323
+Pcoupl                   = parrinello-rahman 
+Pcoupltype               = semiisotropic
+tau_p                    = 20 20
+compressibility          = 3e-5 3e-5
+ref_p                    = 1.0  1.0
+refcoord_scaling = com
+
+constraints              = none
+constraint_algorithm     = Lincs
+unconstrained_start      = no
+lincs_order              = 2
+lincs_warnangle          = 30
