@@ -13,7 +13,12 @@ To run the simulations, please download the required Martini files from the offi
 
 After downloading, place the files in your working directory and verify that the `#include` paths in `topol.top` are correct.  
 
-📚 For guidance on building Martini systems, refer to the following tutorial:
+## 📚 Please cite the following key references when using the MARTINI force field:
+
+- Marrink, S.J., et al. The MARTINI Force Field: Coarse Grained Model for Biomolecular Simulations. *J. Phys. Chem. B*, 2007, 111 (27), 7812-7824.  
+- Monticelli, L., et al. The MARTINI Coarse-Grained Force Field: Extension to Proteins. *J. Chem. Theory Comput.*, 2008, 4 (5), 819-834.  
+
+🔆 For further guidance on building Martini systems, refer to the following tutorial:
 
 👉 [INSANE Martini Tutorial (GitHub)](https://github.com/msidore/tutorial_insane/blob/master/INSANE_Tutorial.ipynb). 
 
@@ -23,24 +28,27 @@ After downloading, place the files in your working directory and verify that the
 
 **16 GPCRs** system in a multi-lipid membrane composed of Lipids, Cholesterol &  Cardiolipin 💖
 
+---
+
+## 🍸🧬✨ Craft Your MARTINI Universe — *A guide to GPCR system construction* 
 
 ``` bash
-# 📦 Prepare CG membrane template
+# 📦 Prepare CG membrane template for a multi-lipid membrane composed of POPC, POPE and CHOLESTEROL:
 ./input/insane.py -l POPC:3 -l POPE:2 -l CHOL:1 -salt 0.15 -x 15 -y 10 -z 9 -d 0 -p topol.top -pbc cubic -sol W -o bilayer.gro
 
-# ✏️ Edit topology
+# ✏️ Edit topology using SED:
 sed -i 's:#include "martini\.itp":#include "\.\./martini_ff/martini_v2\.2\.itp"\n#include "\.\./martini_ff/martini_v2\.0_lipids_all_201506\.itp"\n#include "\.\./martini_ff/martini_v2\.0_ions\.itp":' topol.top
 
 g_make_ndx -f bilayer.gro
 
-# ⚙️ Run minimization and equilibration
+# ⚙️ Run minimization and equilibration using GROMACS:
 g_grompp -f ./mdp/minimization.mdp -c bilayer.gro -p topol.top -o minimization.tpr -maxwarn 1
 g_mdrun -deffnm minimization -v
 
 g_grompp -f ./mdp/membrane_eq.mdp -c minimization.gro -p topol.top -o equilibration.tpr -n
 g_mdrun -deffnm equilibration -v
 
-# 🚀 Run MD
+# 🚀 Run Production Run
 g_grompp -f ./mdp/membrane_md.mdp -c equilibration.gro -p topol.top -o production_run_CG.tpr
 g_mdrun -deffnm production_run_CG -v
 
