@@ -35,7 +35,6 @@ packmol-memgen \
   📚 Betta release, tutorials coming soon!
   
 ## 📦 Built On  
-    ✨    AmberTools
-    ✨ Packmol-Memgen
+  🧡 ✨ [Packmol-Memgen (AmberTools)](https://ambermd.org/AmberTools.php)
     
 ![Lipid Forge Logo](https://github.com/TheVisualHub/VisualFactory/blob/aa62d075e6a471ca173dad8fea53666b5e629b88/assets/lipidforge_logo2.jpeg?raw=true)
