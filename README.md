@@ -13,8 +13,14 @@ Build, simulate, and decode the mysteries of complex biomembrane systems at the 
 
 ## ⚖️ ETHICAL USE POLICY
 
-_All scripts and tools here are strictly for **educational & academic use only**._  
-Please respect the science and keep it ethical!
+_All scripts, llustrative materials, and tools provided here are strictly for **educational & academic use only**._  
+Please use them responsibly and uphold the highest standards of scientific integrity and ethics.  
+
+---
+
+## 📽️ My recent video blogs on membrane proteins modelling
+
+[Exploring Supramolecular Biomembrane Machines: insights from Molecular Dynamics](https://www.linkedin.com/pulse/exploring-supramolecular-biomembrane-machines-insights-gleb-novikov-b0nxe/?trackingId=apAbfz3rTyyBr77sc30CNA%3D%3D)
 
 ---
 
