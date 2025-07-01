@@ -21,8 +21,7 @@ After downloading, place the files in your working directory and verify that the
 
 ## 🧩 What’s Inside?
 
-🧬 **16 GPCRs** system in a multi-lipid membrane composed of
-🧫 Lipids, Cholesterol &  Cardiolipin 💖
+**16 GPCRs** system in a multi-lipid membrane composed of Lipids, Cholesterol &  Cardiolipin 💖
 
 ## 🚀 Ready to Simulate?
 
