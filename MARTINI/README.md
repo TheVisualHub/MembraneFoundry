@@ -11,16 +11,18 @@ To run the simulations, please download the required Martini files from the offi
 
 👉 [https://cgmartini.nl](https://cgmartini.nl)  
 
+🔆 For further guidance on building Martini systems, refer to the following tutorial:
+
+👉 [INSANE Martini Tutorial (GitHub)](https://github.com/msidore/tutorial_insane/blob/master/INSANE_Tutorial.ipynb). 
+
 After downloading, place the files in your working directory and verify that the `#include` paths in `topol.top` are correct.  
+
+---
 
 ## 📚 Please cite the following key references when using the MARTINI force field:
 
 - Marrink, S.J., et al. The MARTINI Force Field: Coarse Grained Model for Biomolecular Simulations. *J. Phys. Chem. B*, 2007, 111 (27), 7812-7824.  
 - Monticelli, L., et al. The MARTINI Coarse-Grained Force Field: Extension to Proteins. *J. Chem. Theory Comput.*, 2008, 4 (5), 819-834.  
-
-🔆 For further guidance on building Martini systems, refer to the following tutorial:
-
-👉 [INSANE Martini Tutorial (GitHub)](https://github.com/msidore/tutorial_insane/blob/master/INSANE_Tutorial.ipynb). 
 
 ---
 
