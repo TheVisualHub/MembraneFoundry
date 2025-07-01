@@ -1,4 +1,17 @@
-https://github.com/msidore/tutorial_insane/blob/master/INSANE_Tutorial.ipynb
+This educational project uses the Martini 2 coarse-grained force field.
+
+⚠️ Martini parameter files (e.g., `martini_v2.2.itp`, `martini_v2.0_lipids.itp`, etc.) are **not included** in this repository.
+
+To run the simulations, please download the required Martini files from the official website:
+
+👉 [https://cgmartini.nl](https://cgmartini.nl)
+
+After downloading, place the files in your working directory and verify that the `#include` paths in `topol.top` are correct.
+
+📚 For guidance on building Martini systems, refer to the following tutorial:
+
+👉 [INSANE Martini Tutorial (GitHub)](https://github.com/msidore/tutorial_insane/blob/master/INSANE_Tutorial.ipynb)
+
 
 Prepare CG membrane template
 
@@ -52,7 +65,7 @@ g_genbox -cp wsp2.gro -cs MEMsystem.gro -vdwd 0.21 -o solvatedNEW.gro -box 18 18
 
 2 EMBED PROTEIN WITHIN THE NEW LIPID BILAYER
 
-./scripts/insane.py -charge 0 -salt 0.15 -x 15 -y 10 -z 9 -d 0 -pbc cubic -sol W -f CG.pdb �o CG_membrane.gro -p CG_membrane.top -pbc cubic -d 0 -center -l POPC:3 -l POPE:2 -l CHOL:1
+./scripts/insane.py -charge 0 -salt 0.15 -x 15 -y 10 -z 9 -d 0 -pbc cubic -sol W -f CG.pdb –o CG_membrane.gro -p CG_membrane.top -pbc cubic -d 0 -center -l POPC:3 -l POPE:2 -l CHOL:1
 
 
 
