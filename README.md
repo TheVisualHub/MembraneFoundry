@@ -20,11 +20,11 @@ Please use them responsibly and uphold the highest standards of scientific integ
 
 ## 📽️ My recent video blogs on membrane proteins modelling
 
-[Exploring Supramolecular Biomembrane Machines: insights from Molecular Dynamics](https://www.linkedin.com/pulse/exploring-supramolecular-biomembrane-machines-insights-gleb-novikov-b0nxe/?trackingId=apAbfz3rTyyBr77sc30CNA%3D%3D)  
-[Computational Microscopy of GPCRs: beyond surface-level interactions](https://www.linkedin.com/pulse/computational-microscopy-gpcr-activation-beyond-gleb-novikov-y5rwe/?trackingId=apAbfz3rTyyBr77sc30CNA%3D%3D)  
-[Dynamic nature of G-protein coupled receptors](https://www.linkedin.com/pulse/dynamic-nature-g-protein-coupled-receptors-gleb-novikov-nqife/?trackingId=cF91wcgOQROa8aNq3cYnog%3D%3D)  
-[The mysteries of biological membranes](https://www.linkedin.com/pulse/mysteries-biological-membranes-gleb-novikov-aqbve/?trackingId=cF91wcgOQROa8aNq3cYnog%3D%3D)  
-[ATP synthase in action](https://www.linkedin.com/pulse/atp-synthase-action-gleb-novikov-nkxhe/?trackingId=E7O4HNQBQ8ecLOVouhXjlw%3D%3D) 
+1️⃣[Exploring Supramolecular Biomembrane Machines: insights from Molecular Dynamics](https://www.linkedin.com/pulse/exploring-supramolecular-biomembrane-machines-insights-gleb-novikov-b0nxe/?trackingId=apAbfz3rTyyBr77sc30CNA%3D%3D)  
+2️⃣[Computational Microscopy of GPCRs: beyond surface-level interactions](https://www.linkedin.com/pulse/computational-microscopy-gpcr-activation-beyond-gleb-novikov-y5rwe/?trackingId=apAbfz3rTyyBr77sc30CNA%3D%3D)  
+3️⃣[Dynamic nature of G-protein coupled receptors](https://www.linkedin.com/pulse/dynamic-nature-g-protein-coupled-receptors-gleb-novikov-nqife/?trackingId=cF91wcgOQROa8aNq3cYnog%3D%3D)  
+4️⃣[The mysteries of biological membranes](https://www.linkedin.com/pulse/mysteries-biological-membranes-gleb-novikov-aqbve/?trackingId=cF91wcgOQROa8aNq3cYnog%3D%3D)  
+5️⃣[ATP synthase in action](https://www.linkedin.com/pulse/atp-synthase-action-gleb-novikov-nkxhe/?trackingId=E7O4HNQBQ8ecLOVouhXjlw%3D%3D) 
 
 
 ---
