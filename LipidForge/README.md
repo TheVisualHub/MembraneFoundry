@@ -1,6 +1,6 @@
 # 🧬 Welcome to the **Lipid Forge**
 
-## 🎞️ Watch the video illustration of a multi-lipid system with the embedded visual receptor rhodopsin  
+## 🎞️ Click to Watch this illustration of a multi-lipid system with the visual receptor rhodopsin  
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
 ## 🔨 Forge Your Own Membranes  
