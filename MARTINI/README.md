@@ -23,6 +23,93 @@ After downloading, place the files in your working directory and verify that the
 
 **16 GPCRs** system in a multi-lipid membrane composed of Lipids, Cholesterol &  Cardiolipin 💖
 
+
+``` bash
+# 📦 Prepare CG membrane template
+./input/insane.py -l POPC:3 -l POPE:2 -l CHOL:1 -salt 0.15 -x 15 -y 10 -z 9 -d 0 -p topol.top -pbc cubic -sol W -o bilayer.gro
+
+# ✏️ Edit topology
+sed -i 's:#include "martini\.itp":#include "\.\./martini_ff/martini_v2\.2\.itp"\n#include "\.\./martini_ff/martini_v2\.0_lipids_all_201506\.itp"\n#include "\.\./martini_ff/martini_v2\.0_ions\.itp":' topol.top
+
+g_make_ndx -f bilayer.gro
+
+# ⚙️ Run minimization and equilibration
+g_grompp -f ./mdp/minimization.mdp -c bilayer.gro -p topol.top -o minimization.tpr -maxwarn 1
+g_mdrun -deffnm minimization -v
+
+g_grompp -f ./mdp/membrane_eq.mdp -c minimization.gro -p topol.top -o equilibration.tpr -n
+g_mdrun -deffnm equilibration -v
+
+# 🚀 Run MD
+g_grompp -f ./mdp/membrane_md.mdp -c equilibration.gro -p topol.top -o production_run_CG.tpr
+g_mdrun -deffnm production_run_CG -v
+
+>> set retain_order,1
+>> set pdb_retain_ids,1
+
+
+###############################################
+# 🧬 FOR A MEMBRANE PROTEIN SYSTEM
+###############################################
+
+# 1️⃣ Do parametrization of protein
+python ./input/martinize.py -f ./input/AT1_prep_noH.pdb -o topol_cg.top -dssp /usr/local/bin/dssp -p backbone -pf 1000 -ff elnedyn22 -x CG.pdb
+# optional elastic: -elastic -ef 500 -el 0.5 -eu 0.9 -ea 0 -ep 0
+
+python ./input/martinize.py -f ./input/cytNMR.pdb -o topol_wsp.top -x wsp.pdb -dssp /projects/clouddyn/Software/dssp -p backbone -ff elnedyn22
+
+g_editconf -f wsp.pdb -box 18 18 28 -o wsp.gro
+g_editconf -f wsp.gro -translate 0 0 -10 -o wsp2.gro
+
+# 🧪 Combine
+g_genbox -cp wsp2.gro -cs MEMsystem.gro -vdwd 0.21 -o solvatedNEW.gro -box 18 18 28
+
+# 📌 Add elastic restraints if needed:
+# -elastic -ef 500 -el 0.5 -eu 0.9 -ea 0 -ep 0
+
+# 2️⃣ Embed protein within the new lipid bilayer
+./scripts/insane.py -charge 0 -salt 0.15 -x 15 -y 10 -z 9 -d 0 -pbc cubic -sol W -f CG.pdb -o CG_membrane.gro -p CG_membrane.top -center -l POPC:3 -l POPE:2 -l CHOL:1
+
+# 📄 Combine all topologies
+# These parameters can be obtained at https://cgmartini.nl](https://cgmartini.nl
+#include "./martini_ff/martini_v2.2.itp"
+#include "./martini_ff/martini_v2.0_lipids_all_201506.itp"
+#include "./martini_ff/martini_v2.0_ions.itp"
+#include "./martini_ff/martini_v2.0_solvents.itp"
+#include "Protein.itp"
+
+sed -i 's:#include \"martini\.itp\":#include "\./martini_ff/martini_v2\.2\.itp"\n#include "\./martini_ff/martini_v2\.0_lipids_all_201506\.itp"\n#include "\./martini_ff/martini_v2\.0_ions\.itp"\n#include \"Protein\.itp":' system.top
+
+grompp -f ./mdp/equil.mdp -c system.gro -p system.top -o equilibration.tpr -n
+make_ndx -f system.gro
+#1|13 PROTMEMB
+#     SOLV
+
+# ⚙️ Run minimization and equilibration
+gmx grompp -f ./mdp/minimization.mdp -c system.gro -p system.top -o minimization.tpr -n -maxwarn 1
+gmx mdrun -nt 8 -deffnm minimization -v
+
+gmx grompp -f ./mdp/equilibration.mdp -c minimization.gro -p system.top -o equilibration.tpr -n -maxwarn 1
+gmx mdrun -nt 8 -deffnm equilibration -v
+
+# 📦 Replicate system if necessary
+gmx genconf -f equilibration.gro -nbox 4 4 1 -o system_big.gro
+cp system.top system_big.top
+gmx make_ndx -f system_big.gro
+
+gmx grompp -f ./mdp/minimization.mdp -c system_big.gro -p system_big.top -o minimization2.tpr -n -maxwarn 1
+gmx mdrun_d -nt 8 -deffnm minimization2 -v
+cp minimization2.gro system_big_min.gro
+rm ./#* ./minimization* ./equilibration* ./topol_cg.top ./system.*
+
+# 🚀 Run MD
+grompp -f ./mdp/equil.mdp -c system_big_min.gro -p system_big.top -o test.tpr -n
+mdrun -nt 8 -deffnm test -v
+```
+
+
+
+
 ## 🚀 Ready to Simulate?
 
 Sit back and watch molecular choreography unfold! 💃🕺
