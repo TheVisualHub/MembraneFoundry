@@ -1,6 +1,6 @@
 # Welcome to the **Lipid Forge** 🔥
 
-## 🎞️ Click to watch this illustration of a multi-lipid system with the visual receptor rhodopsin  
+## 🎞️ Click to watch fantastic animation of a multi-lipid membrane with the visual receptor rhodopsin  
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
 ## 🔨 Forge Your Own Membranes  
@@ -11,7 +11,7 @@ Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or prepar
 ## 🚀 Coming soon:
 A streamlined, robust, and fully scriptable tool for constructing complex lipid bilayers with precise control over composition, force fields, and spatial arrangement — perfect for large-scale molecular modeling projects.  
 
-## ⚙️ Example Crafting Recipe of a Four-lipid Biomembrane  
+## ⚙️ Example Crafting Recipe of a Four-lipid Membrane  
 
 ```bash
 packmol-memgen \
@@ -31,10 +31,10 @@ packmol-memgen \
 ```
 
 ## ⏳ Status. 
-  ✨ Currently under active development
+  ✨ Currently under active development  
   📚 Betta release, tutorials coming soon!
   
 ## 📦 Built On  
-  🧡 ✨ [Packmol-Memgen (AmberTools)](https://ambermd.org/AmberTools.php)
+  ✨ [Packmol-Memgen (AmberTools)](https://ambermd.org/AmberTools.php)
     
 ![Lipid Forge Logo](https://github.com/TheVisualHub/VisualFactory/blob/aa62d075e6a471ca173dad8fea53666b5e629b88/assets/lipidforge_logo2.jpeg?raw=true)
