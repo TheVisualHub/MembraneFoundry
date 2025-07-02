@@ -22,20 +22,28 @@ enriched in **sphingomyelin (PSM)**, **cholesterol (CHOL)**, and **saturated pho
 This lipid composition models a lipid raft by enriching sphingomyelin and cholesterol to create a tightly packed, ordered microdomain, supported by saturated DPPC for membrane stability, with minimal unsaturated POPC to mimic natural membrane heterogeneity. This ratio captures the key physicochemical properties essential for raft formation and function. The following `packmol-memgen` command generates a lipid raft model following this structural recipe:
 
 ```bash
+# 🎉 KEY OPTIONS:
+# --lipids and --ratio -> mimicking lipid raft membrane composition
+# --pdb -> inserts protein into packed membrane - comment it for a pure membrane simulation
+# --keep ligs -> keeps ligands for parametrization (covered in another tutorial)
+# --preoriented -> uses a pre-oriented protein structure (e.g., from OPM or PDBTM)
+# --parametrize -> generates topology (prmtop) and coordinate files with AmberTools
+#
 packmol-memgen \
-  --lipids PSM:CHOL:DPPC:POPC \           # Lipid types in the raft model
-  --ratio 4:3:2:1 \                       # Enriched in sphingomyelin and cholesterol
-  --salt \                                # Add salt for neutralizing charges
-  --salt_c Na+ \                          # Sodium as counterion
-  --ffprot ff14SB \                       # AMBER force field for proteins
-  --fflip lipid21 \                       # AMBER Lipid21 force field
-  --ffwat tip3p \                         # TIP3P water model
-  --distxy_fix 100 \                      # XY dimensions (~100 Å × 100 Å patch)
-  --dist_wat 50 \                         # Water box height (Z dimension)
-  --keepligs \                            # Keep ligands, e.g., raft-targeting molecules
-  --preoriented \                         # Use pre-oriented membrane proteins (if any)
-  --parametrize \                         # Generate .prmtop and .inpcrd files
-  --minimize                              # Minimize the system before MD
+  --lipids PSM:CHOL:DPPC:POPC \
+  --ratio 4:3:2:1 \
+  --salt \
+  --salt_c Na+ \
+  --pdb your_protein_structure.pdb \
+  --ffprot ff14SB \
+  --fflip lipid21 \
+  --ffwat tip3p \
+  --distxy_fix 100 \
+  --dist_wat 50 \
+  --keepligs \
+  --preoriented \
+  --parametrize \
+  --minimize
 ```
 
 And here is a visual example of the membrane raft model created using this one-line Bash command for advanced membrane modeling:
