@@ -26,7 +26,7 @@ After downloading, place the files in your working directory and verify that the
 
 ---
 
-## ✨ Inslattation of GROMACS
+## ✨ Instalation of GROMACS
 
 The **Martini coarse-grained force field** is developed for use with [GROMACS](https://www.gromacs.org) is a **high-performance program for molecular dynamics simulations**, widely used to study systems from small molecules to complex biomolecular assemblies.  
 
@@ -84,7 +84,7 @@ g_mdrun -deffnm production_run_CG -v
 ###############################################
 
 # 1️⃣ Do parametrization of protein
-python ./input/martinize.py -f ./input/AT1_prep_noH.pdb -o topol_cg.top -dssp /usr/local/bin/dssp -p backbone -pf 1000 -ff elnedyn22 -x CG.pdb
+python ./input/martinize.py -f ./input/GPCR_prep_noH.pdb -o topol_cg.top -dssp /usr/local/bin/dssp -p backbone -pf 1000 -ff elnedyn22 -x CG.pdb
 # optional elastic: -elastic -ef 500 -el 0.5 -eu 0.9 -ea 0 -ep 0
 
 python ./input/martinize.py -f ./input/cytNMR.pdb -o topol_wsp.top -x wsp.pdb -dssp /projects/clouddyn/Software/dssp -p backbone -ff elnedyn22
