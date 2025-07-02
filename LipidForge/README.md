@@ -7,7 +7,7 @@
 Step into the lipid workshop: design and refine realistic multi-lipid systems tailored to your brilliant research. 💎  
 Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
-## ⏳ Reconstruction of Mitochondrial Inner Membrane 
+## 💠 Reconstruction of Mitochondrial Inner Membrane 
   ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipids form a cardiolipin-rich environment that stabilizes respiratory complexes and mimics the membrane structure.
 | Amber Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
 |-------------------:|-------------------:|-----------------------:|--------------------------------------------:|
@@ -37,7 +37,11 @@ packmol-memgen \
   --minimize                            # Perform an initial energy minimization of the system
 ```
 
-## 🚀 Coming soon:
+<p align="center">
+  <img src="https://github.com/TheVisualHub/VisualFactory/blob/a6832c514930f962b2357ef171f19dbe59fb7f72/assets/lipidforge_pre1.jpg?raw=true" alt="LipidForge Preview">
+</p>
+
+## ⏳ Coming soon:
 A streamlined, robust, and fully scriptable tool for constructing complex lipid bilayers with precise control over composition, force fields, and spatial arrangement — perfect for large-scale molecular modeling projects.  
   
 ## 🧬 Install AmberTools with Conda
