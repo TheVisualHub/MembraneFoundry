@@ -22,7 +22,7 @@ Now let’s effortlessly generate this complex multi-lipid environment using `pa
 # 🎉 KEY OPTIONS:
 # --lipids and --ratio -> mimicking mitochondrial inner membrane composition
 # --pdb -> inserts protein into packed membrane - comment it for a pure membrane simulation
-# --keep ligs -> keeps ligands for parametrization (covered in another tutorial)
+# --keepligs -> keeps ligands for parametrization (covered in another tutorial)
 # --preoriented -> uses a pre-oriented protein structure (e.g., from OPM or PDBTM)
 # --parametrize -> generates topology (prmtop) and coordinate files with AmberTools
 #
