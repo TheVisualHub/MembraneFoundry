@@ -35,7 +35,8 @@ packmol-memgen \
   📚 Betta release, tutorials coming soon!
   
 ## 🧬 Install AmberTools with Conda
-  📦 The Packmol-Memgen is a part of the [AmberTools](https://ambermd.org/AmberTools.php)
+  📦 The Packmol-Memgen utility, used for creation of biomembranes, is a part of [AmberTools](https://ambermd.org/AmberTools.php)  
+  Below is a simple installation method for Linux or macOS using conda: 
 
 ```bash
 # Create and activate environment
