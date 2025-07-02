@@ -8,15 +8,15 @@ Step into the lipid workshop: design and refine realistic multi-lipid systems ta
 
 Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
-## 🚀 Coming soon:
-A streamlined, robust, and fully scriptable tool for constructing complex lipid bilayers with precise control over composition, force fields, and spatial arrangement — perfect for large-scale molecular modeling projects.  
+## ⏳ Reconstruction of mitochondrial inner membrane 
+  ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipid types reflect the unique, cardiolipin-rich environment essential for stabilizing respiratory complexes and faithfully mimic the native bioenergetic membrane.  
 
 ## ⚙️ Example Crafting Recipe of a Four-lipid Membrane  
 
 ```bash
 packmol-memgen \
-  --lipids DOPE:DOPG:DPPC:POPE \        # Types of lipids to include
-  --ratio 3:3:3:1 \                     # Lipid molar ratio: e.g., 3 DOPE : 3 DOPG : 3 DPPC : 1 POPE
+  --lipids POPC:POPE:TLCL2:POPI \       # Types of phospho-lipids to include
+  --ratio 4:3:2:1 \                     # Lipid molar ratio - mimicking  mitochondrial inner membrane composition
   --salt \                              # Add salt to the system
   --salt_c Na+ \                        # Type of cation (e.g., Na+)
   --ffprot ff14SB \                     # Force field for proteins
@@ -30,9 +30,8 @@ packmol-memgen \
   --minimize                            # Perform an initial energy minimization of the system
 ```
 
-## ⏳ Status. 
-  ✨ Currently under active development  
-  📚 Betta releases, tutorials coming soon!
+## 🚀 Coming soon:
+A streamlined, robust, and fully scriptable tool for constructing complex lipid bilayers with precise control over composition, force fields, and spatial arrangement — perfect for large-scale molecular modeling projects.  
   
 ## 🧬 Install AmberTools with Conda
   The Packmol-Memgen, used for creation of biomembranes, is a part of [AmberTools](https://ambermd.org/AmberTools.php)  
