@@ -1,6 +1,6 @@
 # Welcome to the **Lipid Forge** 🔥
 
-## 🎞️ Click to watch a high-quality animation of a multi-lipid membrane featuring the visual receptor rhodopsin.
+## 🎞️ Click to watch a high-quality animation of molecular dynamics of a multi-lipid membrane system.
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
 ## 🔨 Forge Your Own Membranes  
