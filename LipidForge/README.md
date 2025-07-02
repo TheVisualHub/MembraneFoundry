@@ -24,6 +24,7 @@ packmol-memgen \
   --ratio 4:3:2:1 \                     # Lipid molar ratio - mimicking  mitochondrial inner membrane composition
   --salt \                              # Add salt to the system
   --salt_c Na+ \                        # Type of cation (e.g., Na+)
+  --pdb your_protein_structure.pdb      # Insert protein into packed membrane - comment it for a pure membrane simulation
   --ffprot ff14SB \                     # Force field for proteins
   --fflip lipid21 \                      # Force field for lipids
   --ffwat tip3p \                        # Water model (e.g., TIP3P or SPC)
