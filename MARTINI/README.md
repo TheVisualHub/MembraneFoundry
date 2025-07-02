@@ -48,7 +48,7 @@ gmx --version
 
 ---
 
-## 🍸🧬✨ Craft Your MARTINI Universe — *A guide to the construction of the GPCRs embedded in multi-lipid membrane* 
+## 🌌 Craft Your MARTINI Universe — *A guide to the construction of the GPCRs embedded in multi-lipid membrane* 
 
 The membrane model used in this tutorial comprises a mixture of two phospholipid types — POPE and POPC — along with cholesterol to mimic a biologically relevant environment. Both POPE and POPC lipids share a common fatty acid composition, each containing one saturated palmitoyl (16:0) chain and one monounsaturated oleoyl (18:1) chain, but differ in their headgroups:  
 1️⃣ POPE (Phosphatidylethanolamine) features a smaller, more conical phosphoethanolamine headgroup, which tends to promote membrane curvature and flexibility, often localizing to the inner leaflet of membranes.  
