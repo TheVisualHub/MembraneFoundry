@@ -36,5 +36,17 @@ packmol-memgen \
   
 ## 📦 Built On  
   ✨ [Packmol-Memgen (AmberTools)](https://ambermd.org/AmberTools.php)
+  
+## 🧬 Install AmberTools with Conda
+
+```bash
+# Create and activate environment
+conda create -n ambertools -c conda-forge ambertools
+conda activate ambertools
+
+# Test installation calling tleap or cpptraj in the Terminal
+tleap -h
+cpptraj -h
+```
     
 ![Lipid Forge Logo](https://github.com/TheVisualHub/VisualFactory/blob/aa62d075e6a471ca173dad8fea53666b5e629b88/assets/lipidforge_logo2.jpeg?raw=true)
