@@ -17,6 +17,7 @@ Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or prepar
 | TLCL2              | Anionic (−2 charge)| Cardiolipin             | Four linoleoyl (18:2) chains               |
 | POPI               | Anionic (−1 charge)| Phosphatidylinositol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 
+Now let’s effortlessly generate this complex multi-lipid environment with just one command in Bash terminal!
 
 ## ⚙️ Example Crafting Recipe of a Four-lipid Membrane  
 
