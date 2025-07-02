@@ -1,6 +1,6 @@
 # Welcome to the Universe of **Raft Craft** 🛡️✨
 
-## 🎞️ Click on the image to watch a 4K animation of cholesterol-enriched membrane raft.
+## 🎞️ Click on the image to watch a 4K animation of cholesterol-enriched membrane raft modelled in all-atom molecular dynamics:
 [![Watch the video](https://img.youtube.com/vi/mr-7WZk0iPI/maxresdefault.jpg)](https://youtu.be/mr-7WZk0iPI)
 
 
