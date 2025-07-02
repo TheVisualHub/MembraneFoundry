@@ -1,6 +1,6 @@
 ; MARTINI (elnedyn22) Coarse Grained topology file for "Protein"
 ; Created by py version 2.5 
-; Using the following options:  -f ./input/AT1_prep_noH.pdb -o topol_cg.top -dssp /usr/local/bin/dssp -p backbone -pf 1000 -ff elnedyn22 -x CG.pdb
+; Using the following options:  -f ./input/GPCR_prep_noH.pdb -o topol_cg.top -dssp /usr/local/bin/dssp -p backbone -pf 1000 -ff elnedyn22 -x CG.pdb
 ; Sequence:
 ; DCPKAGRHNYIFVMIPTLYSIIFVVGIFGNSLVVIVIYFYMKLKTVASVFLLNLALADLCFLLTLPLWAVYTAMEYRWPFGNYLCKIASASVSFNLYASVFLLTCLSIDRYLAIVHPMKSRLRRTMLVAKVTCIIIWLLAGLASLPAIIHRNVFFIENTNITVCAFHYESQNSTLPIGLGLTKNILGFLFPFLIILTSYTLIWKALKKAYEIQKNKPRNDDIFKIIMAIVLFFFFSWIPHQIFTFLDVLIQLGIIRDCRIADIVDTAMPITICIAYFNNCLNPLFYGFLGKKFKRYFLQLL
 ; Secondary Structure:
