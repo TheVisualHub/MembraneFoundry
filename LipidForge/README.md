@@ -19,21 +19,28 @@ Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or prepar
 Now let’s effortlessly generate this complex multi-lipid environment using `packmol-memgen` with just one command in the terminal:
 
 ```bash
+# 🎉 KEY OPTIONS:
+# --lipids and --ratio -> mimicking mitochondrial inner membrane composition
+# --pdb -> inserts protein into packed membrane - comment it for a pure membrane simulation
+# --keep ligs -> keeps ligands for parametrization (covered in another tutorial)
+# --preoriented -> uses a pre-oriented protein structure (e.g., from OPM or PDBTM)
+# --parametrize -> generates topology (prmtop) and coordinate files with AmberTools
+#
 packmol-memgen \
-  --lipids POPC:POPE:TLCL2:POPI \       # Types of phospho-lipids to include
-  --ratio 4:3:2:1 \                     # Lipid molar ratio - mimicking  mitochondrial inner membrane composition
-  --salt \                              # Add salt to the system
-  --salt_c Na+ \                        # Type of cation (e.g., Na+)
-  --pdb your_protein_structure.pdb      # Insert protein into packed membrane - comment it for a pure membrane simulation
-  --ffprot ff14SB \                     # Force field for proteins
-  --fflip lipid21 \                      # Force field for lipids
-  --ffwat tip3p \                        # Water model (e.g., TIP3P or SPC)
-  --distxy_fix 110 \                    # XY box dimensions; controls total number of lipids
-  --dist_wat 50 \                        # Z dimension (box height); controls number of water molecules
-  --keepligs \                          # Keep ligands for parametrization (covered in tutorial)
-  --preoriented \                       # Use a pre-oriented protein structure (e.g., from OPM or PDBTM)
-  --parametrize \                       # Generate topology (prmtop) and coordinate files with AmberTools
-  --minimize                            # Perform an initial energy minimization of the system
+  --lipids POPC:POPE:TLCL2:POPI \
+  --ratio 4:3:2:1 \
+  --salt \
+  --salt_c Na+ \
+  --pdb your_protein_structure.pdb \
+  --ffprot ff14SB \
+  --fflip lipid21 \
+  --ffwat tip3p \
+  --distxy_fix 110 \
+  --dist_wat 50 \
+  --keepligs \
+  --preoriented \
+  --parametrize \
+  --minimize
 ```
 
 And this is a glimpse of the multi-lipid system with embedded ATP synthase — we’ll dive deeper into its construction in a separate tutorial:
