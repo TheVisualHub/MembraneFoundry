@@ -16,7 +16,7 @@ Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or prepar
 | TLCL2              | Anionic (−2 charge)| Cardiolipin             | Four linoleoyl (18:2) chains               |
 | POPI               | Anionic (−1 charge)| Phosphatidylinositol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 
-Now let’s effortlessly generate this complex multi-lipid environment with just one command in Bash terminal!
+Now let’s effortlessly generate this complex multi-lipid environment with just one command in Bash terminal:
 
 ```bash
 packmol-memgen \
@@ -34,6 +34,8 @@ packmol-memgen \
   --parametrize \                       # Generate topology (prmtop) and coordinate files with AmberTools
   --minimize                            # Perform an initial energy minimization of the system
 ```
+
+And this is a glimpse of the multi-lipid system with embedded ATP synthase — we’ll dive deeper into its construction in a separate tutorial:
 
 <p align="center">
   <img src="https://github.com/TheVisualHub/VisualFactory/blob/a6832c514930f962b2357ef171f19dbe59fb7f72/assets/lipidforge_pre1.jpg?raw=true" alt="LipidForge Preview">
