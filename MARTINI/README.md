@@ -50,13 +50,10 @@ gmx --version
 
 ## 🍸🧬✨ Craft Your MARTINI Universe — *A guide to the construction of the GPCRs embedded in multi-lipid membrane* 
 
-The membrane model used in this tutorial comprises a mixture of two phospholipid types—POPE and POPC—along with cholesterol to mimic a biologically relevant environment. Both POPE and POPC lipids share a common fatty acid composition, each containing one saturated palmitoyl (16:0) chain and one monounsaturated oleoyl (18:1) chain, but differ in their headgroups:
-
-    ✨ POPE (Phosphatidylethanolamine) features a smaller, more conical phosphoethanolamine headgroup, which tends to promote membrane curvature and flexibility, often localizing to the inner leaflet of membranes.
-
-   ✨ POPC (Phosphatidylcholine) has a larger, cylindrical phosphocholine headgroup, contributing to membrane stability and fluidity, and is typically abundant in the outer leaflet.
-
-The addition of cholesterol further modulates membrane order and thickness, providing a more physiologically relevant bilayer for the embedded GPCRs.
+The membrane model used in this tutorial comprises a mixture of two phospholipid types—POPE and POPC—along with cholesterol to mimic a biologically relevant environment. Both POPE and POPC lipids share a common fatty acid composition, each containing one saturated palmitoyl (16:0) chain and one monounsaturated oleoyl (18:1) chain, but differ in their headgroups:  
+1️⃣ POPE (Phosphatidylethanolamine) features a smaller, more conical phosphoethanolamine headgroup, which tends to promote membrane curvature and flexibility, often localizing to the inner leaflet of membranes.  
+2️⃣ POPC (Phosphatidylcholine) has a larger, cylindrical phosphocholine headgroup, contributing to membrane stability and fluidity, and is typically abundant in the outer leaflet.  
+3️⃣ Cholesterol further modulates membrane order and thickness, providing a more physiologically relevant bilayer for the embedded GPCRs.
 
 ``` bash
 # 📦 Prepare CG membrane template for a multi-lipid membrane composed of POPC, POPE and CHOLESTEROL:
