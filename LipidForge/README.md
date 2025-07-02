@@ -1,6 +1,6 @@
 # Welcome to the **Lipid Forge** 🔥
 
-## 🎞️ Click to watch a 4K animation of a multi-lipid membrane system in molecular dynamics.
+## 🎞️ Click the image to watch a 4K animation of a multi-lipid membrane system in molecular dynamics:
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
 ## 🔨 Forge Your Own Membranes  
@@ -16,7 +16,7 @@ Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or prepar
 | TLCL2              | Anionic (−2 charge)| Cardiolipin             | Four linoleoyl (18:2) chains               |
 | POPI               | Anionic (−1 charge)| Phosphatidylinositol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 
-Now let’s effortlessly generate this complex multi-lipid environment with just one command in Bash terminal:
+Now let’s effortlessly generate this complex multi-lipid environment using `packmol-memgen` with just one command in the terminal:
 
 ```bash
 packmol-memgen \
