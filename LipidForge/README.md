@@ -32,10 +32,10 @@ packmol-memgen \
 
 ## ⏳ Status. 
   ✨ Currently under active development  
-  📚 Betta release, tutorials coming soon!
+  📚 Betta releases, tutorials coming soon!
   
 ## 🧬 Install AmberTools with Conda
-  📦 The Packmol-Memgen utility, used for creation of biomembranes, is a part of [AmberTools](https://ambermd.org/AmberTools.php)  
+  The Packmol-Memgen, used for creation of biomembranes, is a part of [AmberTools](https://ambermd.org/AmberTools.php)  
   Below is a simple installation method for Linux or macOS using conda: 
 
 ```bash
@@ -47,5 +47,6 @@ conda activate ambertools
 tleap -h
 cpptraj -h
 ```
+And get ready to pack your membranes! 📦✨📦✨📦✨
     
 ![Lipid Forge Logo](https://github.com/TheVisualHub/VisualFactory/blob/aa62d075e6a471ca173dad8fea53666b5e629b88/assets/lipidforge_logo2.jpeg?raw=true)
