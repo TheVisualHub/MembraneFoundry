@@ -1,13 +1,13 @@
 # Welcome to the **Lipid Forge** 🔥
 
-## 🎞️ Click to watch a high-quality animation of molecular dynamics of a multi-lipid membrane system.
+## 🎞️ Click to watch a 4K animation of a multi-lipid membrane system in molecular dynamics.
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
 ## 🔨 Forge Your Own Membranes  
 Step into the lipid workshop: design and refine realistic multi-lipid systems tailored to your brilliant research. 💎  
 Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
-## ⏳ Reconstruction of mitochondrial inner membrane 
+## ⏳ Reconstruction of Mitochondrial Inner Membrane 
   ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipids form a cardiolipin-rich environment that stabilizes respiratory complexes and mimics the membrane structure.
 | Amber Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
 |-------------------:|-------------------:|-----------------------:|--------------------------------------------:|
