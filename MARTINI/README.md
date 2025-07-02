@@ -26,13 +26,25 @@ After downloading, place the files in your working directory and verify that the
 
 ---
 
-## 🧩 What’s Inside?
+## 📦 Inslattation of GROMACS
 
-**16 GPCRs** system in a multi-lipid membrane composed of Lipids, Cholesterol &  Cardiolipin 💖
+The **Martini coarse-grained force field** is developed for use with [GROMACS](https://www.gromacs.org) is a **high-performance program for molecular dynamics simulations**, widely used to study systems from small molecules to complex biomolecular assemblies.  
+
+### Linux (Ubuntu/Debian)
+```bash
+sudo apt-get update
+sudo apt-get install gromacs
+```
+### MacOS
+```bash
+brew install gromacs
+```
 
 ---
 
 ## 🍸🧬✨ Craft Your MARTINI Universe — *A guide to GPCR system construction* 
+
+Preparation of **16 GPCRs** system in a multi-lipid membrane composed of Lipids, Cholesterol &  Cardiolipin 💖
 
 ``` bash
 # 📦 Prepare CG membrane template for a multi-lipid membrane composed of POPC, POPE and CHOLESTEROL:
