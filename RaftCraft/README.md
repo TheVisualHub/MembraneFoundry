@@ -25,7 +25,7 @@ This lipid composition models a lipid raft by enriching sphingomyelin and choles
 # 🎉 KEY OPTIONS:
 # --lipids and --ratio -> mimicking lipid raft membrane composition
 # --pdb -> inserts protein into packed membrane - comment it for a pure membrane simulation
-# --keep ligs -> keeps ligands for parametrization (covered in another tutorial)
+# --keepligs -> keeps ligands for parametrization (covered in another tutorial)
 # --preoriented -> uses a pre-oriented protein structure (e.g., from OPM or PDBTM)
 # --parametrize -> generates topology (prmtop) and coordinate files with AmberTools
 #
