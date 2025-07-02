@@ -9,8 +9,8 @@ Step into the lipid workshop: design and refine realistic multi-lipid systems ta
 Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
 ## ⏳ Reconstruction of mitochondrial inner membrane 
-  ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipid types reflect the unique, cardiolipin-rich environment essential for stabilizing respiratory complexes and faithfully mimic the native bioenergetic membrane.  
-| Amber/Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
+  ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipids form a cardiolipin-rich environment that stabilizes respiratory complexes and mimics the native membrane structure.
+| Amber Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
 |-------------------:|-------------------:|-----------------------:|--------------------------------------------:|
 | POPC               | Zwitterionic       | Phosphatidylcholine     | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 | POPE               | Zwitterionic       | Phosphatidylethanolamine| sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
