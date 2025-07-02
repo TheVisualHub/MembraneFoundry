@@ -34,10 +34,8 @@ packmol-memgen \
   ✨ Currently under active development  
   📚 Betta release, tutorials coming soon!
   
-## 📦 Built On  
-  ✨ [Packmol-Memgen (AmberTools)](https://ambermd.org/AmberTools.php)
-  
 ## 🧬 Install AmberTools with Conda
+  📦 The Packmol-Memgen is a part of the [AmberTools](https://ambermd.org/AmberTools.php)
 
 ```bash
 # Create and activate environment
