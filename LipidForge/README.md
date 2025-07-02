@@ -53,6 +53,6 @@ conda activate ambertools
 tleap -h
 cpptraj -h
 ```
-And get ready to pack your membranes! 📦✨📦✨📦✨
+And get ready to pack your membranes! 📦✨
     
 ![Lipid Forge Logo](https://github.com/TheVisualHub/VisualFactory/blob/aa62d075e6a471ca173dad8fea53666b5e629b88/assets/lipidforge_logo2.jpeg?raw=true)
