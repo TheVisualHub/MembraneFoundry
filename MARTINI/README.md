@@ -26,18 +26,24 @@ After downloading, place the files in your working directory and verify that the
 
 ---
 
-## 📦 Inslattation of GROMACS
+## ✨ Inslattation of GROMACS
 
 The **Martini coarse-grained force field** is developed for use with [GROMACS](https://www.gromacs.org) is a **high-performance program for molecular dynamics simulations**, widely used to study systems from small molecules to complex biomolecular assemblies.  
 
-### Linux (Ubuntu/Debian)
+### 🐧 Linux (Ubuntu/Debian)
 ```bash
 sudo apt-get update
 sudo apt-get install gromacs
 ```
-### MacOS
+### 🍎 MacOS
 ```bash
 brew install gromacs
+```
+
+After installation, you can verify that GROMACS is installed and accessible by checking its version in Terminal:
+
+```bash
+gmx --version
 ```
 
 ---
