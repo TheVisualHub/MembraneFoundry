@@ -7,7 +7,7 @@
 Step into the lipid workshop: design and refine realistic multi-lipid systems tailored to your brilliant research. 💎  
 Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
-## 💠 Reconstruction of Mitochondrial Inner Membrane 
+## 💠 Reconstruction of Mitochondrial Four-lipid Membrane 
   ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipids form a cardiolipin-rich environment that stabilizes respiratory complexes and mimics the membrane structure.
 | Amber Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
 |-------------------:|-------------------:|-----------------------:|--------------------------------------------:|
@@ -17,8 +17,6 @@ Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or prepar
 | POPI               | Anionic (−1 charge)| Phosphatidylinositol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 
 Now let’s effortlessly generate this complex multi-lipid environment with just one command in Bash terminal!
-
-## ⚙️ Example Crafting Recipe of the Four-lipid Membrane  
 
 ```bash
 packmol-memgen \
