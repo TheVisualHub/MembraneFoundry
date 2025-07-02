@@ -10,6 +10,13 @@ Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or prepar
 
 ## ⏳ Reconstruction of mitochondrial inner membrane 
   ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipid types reflect the unique, cardiolipin-rich environment essential for stabilizing respiratory complexes and faithfully mimic the native bioenergetic membrane.  
+| Amber/Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
+|-------------------:|-------------------:|-----------------------:|--------------------------------------------:|
+| POPC               | Zwitterionic       | Phosphatidylcholine     | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
+| POPE               | Zwitterionic       | Phosphatidylethanolamine| sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
+| TLCL2              | Anionic (−2 charge)| Cardiolipin             | Four linoleoyl (18:2) chains               |
+| POPI               | Anionic (−1 charge)| Phosphatidylinositol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
+
 
 ## ⚙️ Example Crafting Recipe of a Four-lipid Membrane  
 
