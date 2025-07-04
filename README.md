@@ -29,6 +29,15 @@ Please use them responsibly and uphold the highest standards of scientific integ
 
 ---
 
+## 💎 The latest *Raft Craft* tutorial — design your own custom lipid rafts with pinpoint control
+
+<p align="center">
+  <img src="https://github.com/TheVisualHub/VisualFactory/raw/4f331f06a9b8c9696d521f855a5ca2da870538f7/assets/raftcraft_logo2.jpg" alt="RaftCraft Logo">
+</p>
+
+---
+
+
 ## 🚀 What will be included ?
 
 ⏳ This repository is constantly evolving — fresh updates and exciting additions dropping regularly.
