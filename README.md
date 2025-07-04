@@ -1,4 +1,4 @@
-# 🔷 Multiscale Modeling of Biomembrane Systems 🔷 
+# 💠 Multiscale Modeling of Biomembrane Systems 💠 
 
 🎥 Click on the image to watch the video in 4K: 
 [![Watch the video](https://img.youtube.com/vi/qgFmRrF_M9k/maxresdefault.jpg)](https://www.youtube.com/watch?v=qgFmRrF_M9k)
@@ -32,7 +32,9 @@ Please use them responsibly and uphold the highest standards of scientific integ
 ## 💎 The latest *Raft Craft* tutorial — design your own custom lipid rafts with pinpoint control
 
 <p align="center">
-  <img src="https://github.com/TheVisualHub/VisualFactory/raw/4f331f06a9b8c9696d521f855a5ca2da870538f7/assets/raftcraft_logo2.jpg" alt="RaftCraft Logo">
+  <a href="https://github.com/TheVisualHub/MembraneFoundry/tree/main/RaftCraft">
+    <img src="https://github.com/TheVisualHub/VisualFactory/raw/4f331f06a9b8c9696d521f855a5ca2da870538f7/assets/raftcraft_logo2.jpg" alt="RaftCraft Logo">
+  </a>
 </p>
 
 ---
