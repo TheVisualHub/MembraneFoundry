@@ -7,8 +7,8 @@ QUICK START: Execution of burn_bilayer.sh script on the local Linux machine will
 This tutorial can be adapted for any molecular system with specific thermal coupling.
 
 This tutorial uses the CHARMM36 force field. Please download the required .itp files from the official GROMACS website or from MacKerell Lab’s CHARMM36 force field page.
-https://www.charmm-gui.org/?doc=download&lib=gromacs
-https://www.macdermottlab.com/charmm36
+https://www.charmm-gui.org/?doc=download&lib=gromacs  
+https://www.macdermottlab.com/charmm36  
 
 TODO: !! the detailed readme is comming soon !!
 
