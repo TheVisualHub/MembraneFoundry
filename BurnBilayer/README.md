@@ -1,4 +1,4 @@
-# Molecular dynamics simulation at different temperature.
+# Molecular dynamics simulation at different temperatures.
 	
 This tutorial gives you a brief introduction to molecular simulation with GROMACS using shell programming.  
 In this examples we perform molecular dynamics simulation of lipid bilayer at different temperatures. 
