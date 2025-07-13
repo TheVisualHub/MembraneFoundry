@@ -9,6 +9,8 @@ This tutorial can be adapted for any molecular system with specific thermal coup
 This tutorial uses the CHARMM36 force field. Please download the required .itp files from the official MacKerell Lab’s CHARMM36 force field page:
 https://mackerell.umaryland.edu/charmm_ff.shtml#gromacs
 
+The test bilayer system was created using http://www.charmm-gui.org
+
 TODO: !! the detailed readme is comming soon !!
 
 
