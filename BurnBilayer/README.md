@@ -47,7 +47,6 @@ The following Bash script automates Molecular Dynamics (MD) simulations at diffe
   - `System.cpt` (optional, for continuation)
 - This tutorial uses the CHARMM36 force field. Please download the required .itp files from the official MacKerell Lab’s CHARMM36:
 https://mackerell.umaryland.edu/charmm_ff.shtml#gromacs
-- The test bilayer system was created using http://www.charmm-gui.org
 ---
 
 ## ⛵ Quick Start
@@ -56,11 +55,8 @@ Execution of burn_bilayer.sh script on the local Linux machine will replicate th
 
 ### 1. Prepare the Input System
 
-- Best aproach: use all provided files
-- Alternatively you can prepare a POPC bilayer using the following tutorials:
-
-- [GROMACS Membrane Tutorial by Bevan Lab](http://www.bevanlab.biochem.vt.edu/Pages/Personal/justin/gmx-tutorials/membrane_protein/index.html)
-- [CHARMM-GUI Membrane Builder](http://www.charmm-gui.org/)
+- Best approach: Use all provided files in this tutorial
+- Alternatively you can prepare a custom bilayer system using: [CHARMM-GUI Membrane Builder](http://www.charmm-gui.org/)
 
 Once prepared, place the following files into the `ref/` folder:
 
