@@ -51,7 +51,13 @@ https://mackerell.umaryland.edu/charmm_ff.shtml#gromacs
 
 ## ⛵ Quick Start
 
-Execution of burn_bilayer.sh script on the local Linux machine will replicate the bilayer system to perform simulation of each replica at different temperature. This tutorial can be adapted for any molecular system with specific thermal coupling.
+Running the burn_bilayer.sh script on the local Linux machine will replicate the bilayer system, creating multiple replicas modeled at different temperatures:
+
+
+```bash
+chmod +x ./burn_bilayer.sh
+./burn_bilayer.sh
+```
 
 ### 1. Prepare the Input System
 
@@ -60,16 +66,16 @@ Execution of burn_bilayer.sh script on the local Linux machine will replicate th
 
 Once prepared, place the following files into the `ref/` folder:
 
-### 2. How to execute the Script
+### 2. How to run MD simulations
 
-Run the following from your project root directory:
+Once prepared, the script creates another script run_simulations.sh, which should be executed from the project root directory on your HPC cluster:
 
 ```bash
 chmod +x ./run_simulations.sh
 ./run_simulations.sh
 ```
 
-🔥 This command will:
+## 🔥 IF everything is OK, this execution will:
 
     - Replicate test system creating a separate directory for each temperature (e.g., bilayer.burning_323K)
 
@@ -78,6 +84,13 @@ chmod +x ./run_simulations.sh
     - Automatically generate a run.pbs job script for each simulation for HPC on your cluster
 
     - Create a submitter.sh script to submit all jobs at once
+
+## 🧊 ELSE:
+
+    - Just adapt the generated run.pbs files or the ${run_file} in the burn_bilayer.sh according to your local claster. 
+    - This is very easy!
+
+
 
 ## ⚙️ Simulation Parameters (MDP)
 
