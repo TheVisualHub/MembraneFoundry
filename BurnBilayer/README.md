@@ -1,4 +1,4 @@
-# ⛵ High-Performance Molecular Dynamics Journey Across a Broad Thermal Spectrum 🔥
+# ⛵ High-Temperature Molecular Dynamics Journey 🔥
 
 ### 🎞️ Click on the image below to watch high-temperature molecular dynamics in action:
 [![Watch on YouTube](https://img.youtube.com/vi/idJqUUbRUj0/maxresdefault.jpg)](https://youtu.be/idJqUUbRUj0)
