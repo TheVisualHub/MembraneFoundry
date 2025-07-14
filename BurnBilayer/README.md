@@ -87,7 +87,7 @@ chmod +x ./run_simulations.sh
 
 ## 🧊 ELSE:
 
-    - Just adapt the generated run.pbs files or the ${run_file} in the burn_bilayer.sh according to your local claster. 
+    - Just adapt the generated run.pbs files or the ${run_file} in the burn_bilayer.sh according to your local cluster. 
     - This is very easy!
 
 
