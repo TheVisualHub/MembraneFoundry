@@ -4,7 +4,7 @@
 [![Watch on YouTube](https://img.youtube.com/vi/idJqUUbRUj0/maxresdefault.jpg)](https://youtu.be/idJqUUbRUj0)
 
 
-The following Bash script automates Molecular Dynamics (MD) simulations at different temperatures using GROMACS. The simulations are performed at various temperatures under NPT ensemble conditions, using the Nosé-Hoover thermostat for temperature control and the Parrinello-Rahman barostat for pressure regulation. Additionally, this tutorial provides a brief introduction to molecular simulations with GROMACS, incorporating shell scripting and high-performance computing (HPC) on a cluster using batch job submission. The present tutorial is designed for membrane bilayer system BUT it can be easily adapted for any other modeling system, e.g. contained a water-soluble protein bound to a small-compound 💊.
+The following Bash script automates Molecular Dynamics (MD) simulations at different temperatures using GROMACS. The simulations are performed at various temperatures under NPT ensemble conditions, using the Nosé-Hoover thermostat for temperature control and the Parrinello-Rahman barostat for pressure regulation. Additionally, this tutorial provides a brief introduction to molecular simulations with GROMACS, incorporating shell scripting and high-performance computing (HPC) on a cluster using batch job submission. The present tutorial is designed for membrane bilayer system BUT it can be easily adapted for any other modeling system, e.g. contained a water-soluble protein bound to a small-compound. 💊
 
 ---
 ## ⏳ Last update (14/07/2025):
