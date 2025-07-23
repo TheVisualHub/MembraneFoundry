@@ -31,6 +31,8 @@ The computational protocol simulates proteins positioned near lipid surfaces mod
 
 ## ⛄  Notes
 
+The key advantage of accurately positioning the protein at a modeled ice surface—composed of lipids with varying saturation levels—is to replicate complex interfacial environments. This detailed simulation of intermolecular interactions provides valuable insights into how cold-adapted proteins function at low temperatures.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/TheVisualHub/VisualFactory/290ead35b3b34dfd63d8b14a128164b1b10b9838/assets/freezebilayer_logo1.jpeg" alt="Freezebilayer Logo" />
 </p>
