@@ -21,8 +21,10 @@ The script uses a suite of GROMACS utilities to perform quantitative analysis on
 | `README.md`        | You're here! Explanation and usage guide     |
 
 ## ⚙️ Requirements
+- Bash shell environment (Ubuntu, Debian, macOS ...)
 - [GROMACS](http://www.gromacs.org/) (tested with version ≥2020)
-- Bash shell (`.sh`)
+- **XMGRACE**: GUI-based plotting tool for interactively viewing `.xvg` or `.agr` data.
+- **Gracebat**: Command-line interface to XMGRACE (for automated plotting in scripts).
 - Typical input files from a molecular dynamics simulation (`.xtc`, `.tpr`, `.gro`, etc.)
 
 ## 🛫 Quick Start
