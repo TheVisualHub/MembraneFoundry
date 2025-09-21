@@ -1,6 +1,6 @@
 # Welcome to the **Lipid Forge** 🔥
 
-## 🎞️ Click on the image to watch a 4K animation of a multi-lipid membrane system modelled in all-atom molecular dynamics:
+## 🎞️ Click on the image to watch a 4K animation of a multi-lipid visual membrane modelled in all-atom molecular dynamics:
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
 ## 🔨 Forge Your Own Membranes  
