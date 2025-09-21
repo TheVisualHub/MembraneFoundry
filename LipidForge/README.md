@@ -39,7 +39,7 @@ packmol-memgen \
   --minimize
 ```
 
-Here’s a glimpse of another multi-lipid system: a mitochondrial membrane with embedded ATP synthase. Its construction will be explored in a separate tutorial
+Here’s another multi-lipid system: a mitochondrial membrane with embedded ATP synthase. Its construction will be explored in a separate tutorial
 
 <p align="center">
   <img src="https://github.com/TheVisualHub/VisualFactory/blob/a6832c514930f962b2357ef171f19dbe59fb7f72/assets/lipidforge_pre1.jpg?raw=true" alt="LipidForge Preview">
