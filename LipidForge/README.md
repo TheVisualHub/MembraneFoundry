@@ -3,10 +3,6 @@
 ## 🎞️ Click on the image to watch a 4K animation of a multi-lipid visual membrane modelled in all-atom molecular dynamics:
 [![Watch the video](https://img.youtube.com/vi/_8Gq76UBun4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_8Gq76UBun4)
 
-## 🔨 Forge Your Own Membranes  
-Step into the lipid workshop: design and refine realistic multi-lipid systems tailored to your brilliant research. 💎  
-Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
-
 ## 🌈 Reconstruction of a Four-Lipid Visual Cone Opsin Membrane
 This educational project builds a realistic model of a cone opsin–containing photoreceptor membrane, based on a representative lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% phosphatidylserine (POPS), and ~10% phosphatidylglycerol (POPG). These four lipids create a mixed membrane environment that stabilizes opsin receptors, closely mimicking the photoreceptor outer-segment membrane.
 | Amber Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
@@ -16,7 +12,7 @@ This educational project builds a realistic model of a cone opsin–containing p
 | POPS               | Anionic (−1 charge)| Phosphatidylserine      | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 | POPG               | Anionic (−1 charge)| Phosphatidylglycerol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 
-Now let’s effortlessly generate this complex multi-lipid environment using `packmol-memgen` via the following command in the terminal:
+This complex multi-lipid environment can be created with `packmol-memgen` via the following command:
 
 ```bash
 # 🎉 KEY OPTIONS:
