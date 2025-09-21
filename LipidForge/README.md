@@ -7,16 +7,16 @@
 Step into the lipid workshop: design and refine realistic multi-lipid systems tailored to your brilliant research. 💎  
 Whether you’re modeling muilti-lipid bilayers, mixing exotic lipids, or preparing membrane protein systems for molecular dynamics — **Lipid Forge** gives you artisan-level control with scriptable reproducibility.  
 
-## 💠 Reconstruction of Mitochondrial Four-lipid Membrane 
-  ✨ This educational project builds a realistic model of the mitochondrial inner membrane, based on its characteristic lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% cardiolipin (TLCL2), and ~10% phosphatidylinositol (POPI). These four lipids form a cardiolipin-rich environment that stabilizes respiratory complexes and mimics the membrane structure.
+## 🌈 Reconstruction of a Four-Lipid Visual Cone Opsin Membrane
+This educational project builds a realistic model of a cone opsin–containing photoreceptor membrane, based on a representative lipid composition: ~40% phosphatidylcholine (POPC), ~30% phosphatidylethanolamine (POPE), ~20% phosphatidylserine (POPS), and ~10% phosphatidylglycerol (POPG). These four lipids create a mixed membrane environment that stabilizes opsin receptors, closely mimicking the photoreceptor outer-segment membrane.
 | Amber Lipid21 name | Properties         | Head group              | Acyl chains (tails)                        |
 |-------------------:|-------------------:|-----------------------:|--------------------------------------------:|
 | POPC               | Zwitterionic       | Phosphatidylcholine     | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 | POPE               | Zwitterionic       | Phosphatidylethanolamine| sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
-| TLCL2              | Anionic (−2 charge)| Cardiolipin             | Four linoleoyl (18:2) chains               |
-| POPI               | Anionic (−1 charge)| Phosphatidylinositol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
+| POPS               | Anionic (−1 charge)| Phosphatidylserine      | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
+| POPG               | Anionic (−1 charge)| Phosphatidylglycerol    | sn-1 palmitoyl (16:0), sn-2 oleoyl (18:1)  |
 
-Now let’s effortlessly generate this complex multi-lipid environment using `packmol-memgen` with just one command in the terminal:
+Now let’s effortlessly generate this complex multi-lipid environment using `packmol-memgen` via the following command in the terminal:
 
 ```bash
 # 🎉 KEY OPTIONS:
@@ -27,7 +27,7 @@ Now let’s effortlessly generate this complex multi-lipid environment using `pa
 # --parametrize -> generates topology (prmtop) and coordinate files with AmberTools
 #
 packmol-memgen \
-  --lipids POPC:POPE:TLCL2:POPI \
+  --lipids POPC:POPE:POPS:POPG \
   --ratio 4:3:2:1 \
   --salt \
   --salt_c Na+ \
@@ -43,7 +43,7 @@ packmol-memgen \
   --minimize
 ```
 
-And this is a glimpse of the multi-lipid system with embedded ATP synthase — we’ll dive deeper into its construction in a separate tutorial:
+Here’s a glimpse of another multi-lipid system: a mitochondrial membrane with embedded ATP synthase. Its construction will be explored in a separate tutorial
 
 <p align="center">
   <img src="https://github.com/TheVisualHub/VisualFactory/blob/a6832c514930f962b2357ef171f19dbe59fb7f72/assets/lipidforge_pre1.jpg?raw=true" alt="LipidForge Preview">
