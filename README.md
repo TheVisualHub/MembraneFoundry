@@ -4,8 +4,8 @@
 
 👑 Welcome to the **Membrane Foundry**!
 
-Unlock the hidden power of your ultimate custom-crafted molecular modeling toolbox! 🛠️
-Build, simulate, and decode the mysteries of complex biomembrane systems at the all-atom level or using coarse-grained molecular dynamics. Elevate your research with a sleek, next-gen platform designed for fearless molecular explorations at the nanoscale.
+Unlock the hidden power of your custom molecular modeling toolbox! 🛠️
+Build, simulate, and decode the mysteries of complex biomembrane systems using atomistic or coarse-grained molecular dynamics. Elevate your research with a sleek, next-gen platform designed for fearless molecular explorations at the nanoscale.
 
 
 ---
