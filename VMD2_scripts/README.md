@@ -10,7 +10,7 @@
 
 ---
 ## ⚡ Default usage:
-Run the script without arguments (target padding = 10 Å) in the TCL console:
+Source the script in the TCL console and than use "check_pbc" command (without arguments) for the target padding = 10 Å:
 ```tcl
 source ./VMD2_BOX.tcl
 check_pbc
