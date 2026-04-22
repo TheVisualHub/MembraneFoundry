@@ -1,8 +1,6 @@
 ✨ VMD2 scripts for membrane simulations and HPC:
 
-check_pbc.tcl - **PBC Padding Optimizer**
-
-A lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)** that evaluates whether your simulation box has sufficient padding around your molecule across all trajectory frames.
+check_pbc.tcl - a lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)** that evaluates whether your simulation box has sufficient padding around your molecule across all trajectory frames.
 
 ---
 
@@ -18,7 +16,27 @@ A lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)** that evaluates
 
 ---
 
-## ▶️ Usage
+## ▶️ Default usage (Target padding = 10 Å)
 
 Run the script in VMD2 TCL console:
 source ./check_pbc.tcl
+then, type:
+check_pbc
+
+## ▶️ Custom execution:
+(0 → mol id; 12.0 → desired padding (Å))
+check_pbc 0 12.0
+
+📊 Example Output
+PBC PADDING REPORT  •  mol 0  •  100 frame(s)
+───────────────────────────────────────────────
+              X / a    Y / b    Z / c
+───────────────────────────────────────────────
+Extent (max)   45.20    42.10    50.30  Å
+Current box    60.00    60.00    60.00  Å
+Optimal box    65.20    62.10    70.30  Å
+Padding now     7.40     8.95     4.85  Å  (target ≥ 10.0)
+───────────────────────────────────────────────
+Status       TOO SMALL ↑  TOO SMALL ↑  TOO SMALL ↑
+───────────────────────────────────────────────
+
