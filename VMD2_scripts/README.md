@@ -1,6 +1,6 @@
 ## 🧭 Overview
 
-`check_pbc.tcl` is a lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)** that evaluates whether your simulation box has sufficient padding around your molecule across all trajectory frames. After execution, the script scans your MD trajectory to:
+`VMD2_BOX.tcl` is a lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)** that evaluates whether your simulation box has sufficient padding around your molecule across all trajectory frames. After execution, the script scans your MD trajectory to:
 
 - Determine the **maximum molecular extent** in X, Y, Z
 - Compare it with the **current periodic box dimensions**
@@ -12,7 +12,7 @@
 ## ⚡ Default usage:
 Run the script without arguments (target padding = 10 Å) in the TCL console:
 ```tcl
-source ./check_pbc.tcl
+source ./VMD2_BOX.tcl
 check_pbc
 ```
 
