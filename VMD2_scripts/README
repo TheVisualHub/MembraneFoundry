@@ -1,2 +1,24 @@
-VMD2 scripts for membrane simulations and HPC. 
-A detailed description will be provided soon ✨
+✨ VMD2 scripts for membrane simulations and HPC:
+
+check_pbc.tcl - **PBC Padding Optimizer**
+
+A lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)** that evaluates whether your simulation box has sufficient padding around your molecule across all trajectory frames.
+
+---
+
+## 📌 Overview
+
+`VMD2_BOX.tcl` scans your trajectory to:
+
+- Determine the **maximum molecular extent** in X, Y, Z
+- Compare it with the **current periodic box dimensions**
+- Calculate the **actual padding**
+- Recommend an **optimal box size**
+- Provide clear status indicators and fix suggestions
+
+---
+
+## ▶️ Usage
+
+Run the script in VMD2 TCL console:
+source ./check_pbc.tcl
