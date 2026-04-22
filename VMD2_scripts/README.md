@@ -4,7 +4,7 @@ check_pbc.tcl - a lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)*
 
 ---
 
-## 📌 Overview
+## 🧭 Overview
 
 `VMD2_BOX.tcl` scans your trajectory to:
 
