@@ -15,19 +15,21 @@ check_pbc.tcl - a lightweight Tcl script for **VMD2 (Visual Molecular Dynamics)*
 - Provide clear status indicators and fix suggestions
 
 ---
-
-## ▶️ Default usage (Target padding = 10 Å)
-
-Run the script in VMD2 TCL console:
+## ⚡ Default usage:
+Run the script without arguments (target padding = 10 Å) in the TCL console:
+```tcl
 source ./check_pbc.tcl
-then, type:
 check_pbc
+```
 
-## ▶️ Custom execution:
-(0 → mol id; 12.0 → desired padding (Å))
+## 👑 Custom execution:
+Use these options for 12 Å desired padding and 0 mol id:
+```tcl
 check_pbc 0 12.0
+```
 
-📊 Example Output
+## 📊 Example Output:
+```text
 PBC PADDING REPORT  •  mol 0  •  100 frame(s)
 ───────────────────────────────────────────────
               X / a    Y / b    Z / c
@@ -39,4 +41,4 @@ Padding now     7.40     8.95     4.85  Å  (target ≥ 10.0)
 ───────────────────────────────────────────────
 Status       TOO SMALL ↑  TOO SMALL ↑  TOO SMALL ↑
 ───────────────────────────────────────────────
-
+```
